@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        <link
+            rel="shortcut icon"
+            href="img/favicon (3).ico"
+            type="image/x-icon"
+        />
+        <!-- Application de google fonts Lato -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Lato:100, 300, 600"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="styles.css" />
+
+        <title>dicee</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- Création du joueur 1 -->
+            <div class="player-0 active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">0</div>
+                </div>
+            </div>
+            <!-- Création du joueur 2 -->
+            <div class="player-1">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+
+            <button class="btn-new">start game</button>
+            <button class="btn-dice">Throw dice</button>
+            <button class="btn-hold">Hold</button>
+
+            <img src="img/dice-" alt="Dice" class="dice" />
+        </div>
+
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
+        <script src="app.js"></script>
+    </body>
+</html>
