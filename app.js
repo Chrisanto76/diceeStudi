@@ -20,9 +20,8 @@ document.querySelector('.btn-dice').addEventListener('click', function () {
                 roundScore;
         } else {
             //a l'autre de jouer
-            let displayDice = document.querySelector('.dice');
-            displayDice.style.display = 'block';
-            displayDice.src = 'img/dice-' + dice + '.svg';
+            alert("OULALALA C'EST UN 1 !\n JOUEUR SUIVANT BB...");
+            console.log('joueur suivant');
             nextPlayer();
         }
     }
